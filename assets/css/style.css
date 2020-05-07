@@ -1,0 +1,21 @@
+.imagenPrincipal {
+    height: 507pt;
+    background-image: url("../img/bg_hero.png");
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.col-12 {
+    text-align: center;
+}
