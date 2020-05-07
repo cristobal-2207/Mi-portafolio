@@ -1,7 +1,53 @@
+body {
+    opacity: 100%;
+}
+
+.osExLi {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+.card-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #373a3c;
+}
+
+.card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    color: #373a3c;
+}
+
+.osBold {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.osSemiBold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #373a3c;
+}
+
+.opensRegular {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.opensSemiBold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
 .imagenPrincipal {
     height: 507pt;
     background-image: url("../img/bg_hero.png");
     background-repeat: no-repeat;
+}
+
+.colorFondoNavMisUlTraFooter {
+    background: #660066;
 }
 
 h1 {
