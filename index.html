@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+    
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,23 +19,23 @@
     <body>
         <!--Sección 1: Barra de Navegación-->
         <nav class="navbar navbar-expand-lg navbar-dark colorFondoNavMisUlTraFooter">
-            <a class="navbar-brand osBold" href="#">M</a>
+            <a class="navbar-brand osBold">M</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link active" href="#">Sobre mi<span class="sr-only">(current)</span></a>
+                        <a class="nav-link active" href="#Sobre mi">Sobre mi<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Experiencia</a>
+                        <a class="nav-link active" href="#Experiencia">Experiencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Trabajos</a>
+                        <a class="nav-link active" href="#Trabajos">Trabajos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Contacto</a>
+                        <a class="nav-link active" href="#Contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -42,18 +43,18 @@
 
         <!--Sección 2: Encabezado Principal-->
         <header>
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                <div class="col-12 imagenPrincipal">
-                    <h1 class="text-white osExLi">YO SOY</h1>
-                    <p class="osBold text-white">MAGDALENA</p>
+                <div class="col-12 imagenPrincipal alineacionDescripcion">
+                    <h1 class="text-white osExLi display-4 text-center">YO SOY</h1>
+                    <p class="osBold text-white nombre text-center display-4">MAGDALENA</p>
                 </div>
                 </div>
             </div>
         </header>
     
         <!--Sección 3: Sobre mi-->
-        <section class="d-none d-sm-block">
+        <section class="d-none d-sm-block" id="Sobre mi">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -68,7 +69,7 @@
                     <div class="col-6 opensRegular">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore magni inventore, laborum obcaecati, amet assumenda, aliquam autem neque maiores harum aut. Enim, ut. Eveniet ipsam cumque asperiores, animi quos natus?</p>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 my-1">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quae enim ipsum reprehenderit quasi suscipit temporibus quo vitae aliquam! Illo iusto ducimus recusandae obcaecati assumenda exercitationem et ipsa, porro accusamus!</p>
                     </div>
                 </div>
@@ -77,19 +78,19 @@
         </section>
 
         <!--Sección 4: Mi experiencia-->
-        <section>
+        <section id="Experiencia">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-12">
                         <h2 class="osBold">MI EXPERIENCIA</h2>
                     </div>
                 </div>
 
                 <div class="row osSemiBold">
-                    <div class="col">
+                    <div class="col-12 col-lg-6 text-center">
                         <h3>Stormtrooper</h3>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-lg-6 text-center">
                         <h3>Desarrollador Rails</h3>
                     </div>
                 </div>
@@ -97,12 +98,12 @@
         </section>
 
         <!--Sección 5: Mis Últimos Trabajos-->
-        <section class="colorFondoNavMisUlTraFooter">
+        <section id="Trabajos" class="colorFondoNavMisUlTraFooter">
 
             <div class="container">
                 <div class="row">
                 <div class="col-12">
-                    <h2 class="text-center text-white my-5 osBold">MIS ÚLTIMOS TRABAJOS</h2>
+                    <h2 class="text-center text-white osBold misUl">MIS ÚLTIMOS TRABAJOS</h2>
                 </div>
                 </div>
             </div>
@@ -144,6 +145,9 @@
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div class="row">
 
                     <!--Cuppon-->
                     <div class="col-12 col-lg-4 margenInferior">
@@ -183,9 +187,9 @@
         </section>
 
         <!--Sección 7: Contacto con Formulario-->
-        <section class="container">
+        <section id="Contacto" class="container">
             <h2 class="osBold">CONTACTO</h2>
-            <P class="text-center my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cumque blanditiis, excepturi dignissimos sit similique esse nam nisi dicta beatae modi odio corporis velit sunt? Excepturi voluptatem voluptatibus exercitationem dolorem!</P>
+            <P class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cumque blanditiis, excepturi dignissimos sit similique esse nam nisi dicta beatae modi odio corporis velit sunt? Excepturi voluptatem voluptatibus exercitationem dolorem!</P>
         </section>
         <div class="typeform-widget" data-url="https://cristobalgutierreznavarro.typeform.com/to/SQhs9Z" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=SQhs9Z&utm_source=typeform.com-01E7QRJCGHQF0DP3W4PGXVSYJM-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
 
@@ -222,4 +226,5 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="assets/js/script.js"></script>
     </body>
-</html>
+
+</html>    
